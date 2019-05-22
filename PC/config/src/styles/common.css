@@ -1,0 +1,310 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html {
+  background: #F6F8F8;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  font-family: "PingFang SC",
+    -apple-system-font,
+    BlinkMacSystemFont,
+    "Helvetica Neue",
+    "Hiragino Sans GB",
+    "Microsoft YaHei UI",
+    "Microsoft YaHei",
+    Arial,
+    sans-serif
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block;
+
+}
+
+body {
+  line-height: 1.5;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* custom */
+
+a {
+  color: #7e8c8d;
+  -webkit-backface-visibility: hidden;
+  text-decoration: none;
+}
+
+
+li {
+  list-style: none;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+
+/* business */
+.cs-common-city-select-panel .el-tabs--border-card>.el-tabs__header {
+  background: none;
+  border: none;
+  margin: 12px 12px 0;
+}
+
+
+.cs-common-city-select-panel .is-active {
+  border-top: 2px solid #ff7955;
+  border-left: 1px solid #dedede;
+  border-right: 1px solid #dedede;
+  border-bottom: 1px solid #fff;
+}
+
+.cs-common-city-select-panel .cities {
+  z-index: 9;
+  border-top: 1px solid #dedede;
+  padding-top: 10px;
+}
+
+.cs-common-city-select-panel .el-tabs--border-card>.el-tabs__content {
+  padding-top: 6px;
+}
+
+.el-tabs--border-card>.el-tabs__header .el-tabs__item+.el-tabs__item,
+.el-tabs--border-card>.el-tabs__header .el-tabs__item:first-child {
+  margin-left: 0;
+}
+
+.cate .el-tabs__item {
+  font-size: 12px;
+}
+
+
+
+.cs-common-city-select-panel .city-letter {
+  width: 30px;
+  text-align: center;
+  color: #999;
+  float: left;
+}
+
+.cs-common-city-select-panel li {
+  cursor: pointer;
+  float: left;
+  display: inline-block;
+  margin: 0 20px 5px 0;
+  font-size: 12px;
+}
+
+.cs-common-city-select-panel li:hover {
+  color: #ff7955;
+}
+
+.cs-common-city-select-panel .active {
+  color: #ff7955;
+}
+
+.cs-common-city-selected {
+  color: #ff7955;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.zt-business .cs-common-city-select-panel {
+  margin-top: 0;
+  border: none;
+  font-size: 12px;
+  -webkit-box-shadow: 0 2px 5px 0 #e6ebf5;
+  box-shadow: 0 2px 5px 0 #e6ebf5;
+  outline-color: snow;
+  top: 56%;
+  left: 24%;
+}
+
+.el-tabs__nav {
+  z-index: 99;
+  padding-top: 10px;
+}
+
+.cs-common-city-select-panel .el-tabs--border-card {
+  border: none;
+  box-shadow: none;
+}
+
+.cs-common-city-select-panel .el-tabs--border-card>.el-tabs__header .el-tabs__item {
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  background: #fff;
+  padding: 0 10px;
+  margin: 0;
+  /* border-top: 2px solid transparent; */
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+.el-tabs--border-card>.el-tabs__header .el-tabs__item+.el-tabs__item,
+.el-tabs--border-card>.el-tabs__header .el-tabs__item:first-child {
+  margin-left: 0;
+}
+
+.el-tabs--top.el-tabs--border-card .el-tabs__item {
+  padding: 10px;
+}
+
+.cs-common-city-select-panel .el-tabs--border-card>.el-tabs__header .el-tabs__item:not(.is-disabled):hover {
+  color: #ff7955;
+
+}
+
+.cs-common-city-select-panel .el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
+  border-top: 2px solid #ff7955;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  color: #5a5e66;
+}
+
+/* qualification */
+.hot .el-carousel__container {
+  height: 490px;
+}
+
+.el-carousel__item--card {
+  width: 290px;
+  height: 390px;
+}
+
+.el-carousel__item--card.is-active {
+  width: 290px;
+  height: 490px;
+}
+
+.item-city:hover .item-bd {
+  display: block;
+  z-index: 99;
+}
+
+.item-city:hover .item-bd li:hover {
+  color: #ff7955;
+}

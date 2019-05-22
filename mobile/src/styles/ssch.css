@@ -1,0 +1,157 @@
+.bglcmp-caishui-chancemo {
+  left: 50% !important;
+  top: 44.5% !important;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+.bglcmp-caishui-chancemo .chance-body {
+  padding: .3rem .80rem;
+}
+
+.bglcmp-caishui-chancemo .chance-body .chance-company-item .item-ipt:focus {
+  outline: none;
+}
+
+.bglcmp-caishui-chancemo .chance-body .chance-company-item {
+  height: .84rem;
+  line-height: .84rem;
+  font-size: .26rem;
+  border: 1px solid #cccccc;
+  border-radius: .12rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: .24rem;
+  overflow: hidden;
+}
+
+.bglcmp-caishui-chancemo .chance-body .chance-company-item .item-name {
+  border-right: 1px solid #ccc;
+  display: block;
+  width: 1.68rem;
+  text-align: center;
+  background: #eeeeee;
+  color: #666666;
+}
+
+.bglcmp-caishui-chancemo .chance-body .chance-company-item .item-ipt {
+  border: none;
+  padding: 0;
+  flex: 1;
+  height: .84rem;
+  line-height: .84rem;
+  padding-left: .2rem;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  min-width: 1px;
+  color: #666666;
+  border-radius: 0;
+}
+
+.bglcmp-caishui-chancemo .chance-body .chance-company-item .item-ipt::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #cccccc;
+}
+
+.bglcmp-caishui-chancemo .chance-body .chance-company-item .item-ipt:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #cccccc;
+}
+
+.bglcmp-caishui-chancemo .chance-body .chance-company-item .item-ipt::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #cccccc;
+}
+
+.bglcmp-caishui-chancemo .chance-body .chance-company-item .item-ipt:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #cccccc;
+}
+
+.bglcmp-caishui-chancemo .chance-body .changce-submit {
+  text-align: center;
+}
+
+.bglcmp-caishui-chancemo .chance-body .changce-submit .item-btn {
+  border: none;
+  height: .84rem;
+  line-height: .84rem;
+  border-radius: .12rem;
+  width: 100%;
+  color: #ffffff;
+  font-size: .32rem;
+  background: linear-gradient(#ff6b4e, #ff8c4e);
+  background: -webkit-linear-gradient(#ff6b4e, #ff8c4e);
+  background: -o-linear-gradient(#ff6b4e, #ff8c4e);
+  background: -moz-linear-gradient(#ff6b4e, #ff8c4e);
+}
+
+.bglcmp-caishui-chancemo .chance-footer {
+  height: .88rem;
+  line-height: .88rem;
+  color: #666666;
+  text-align: center;
+  background: #eeeeee;
+  font-size: .22rem;
+}
+
+.bglcmp-caishui-chancemo .chance-footer .chance-num {
+  color: #ff6b4e;
+}
+
+.bgl-edit-bg.mobile {
+  position: absolute;
+  left: 0;
+  top: 44px !important;
+  width: 100%;
+}
+
+.bgl-edit-bg.mobile .bgl-edit-bg-item {
+  height: 96px;
+}
+
+.word {
+  position: absolute;
+  top: 1.8rem;
+  z-index: 1000;
+  color: #ffffff;
+  width: 5rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.word img {
+  width: 2rem;
+}
+
+.word .line {
+  margin: .20rem 0 .25rem;
+  height: 2px;
+  width: .8rem;
+  background-color: #ffffff;
+  border-radius: 1px;
+}
+
+.word h2 {
+  font-size: .32rem;
+  margin-bottom: .5rem;
+  font-weight: lighter;
+  opacity: 0.75;
+}
+
+.word p {
+  font-size: .22rem;
+  font-weight: lighter;
+}
+
+.word p:nth-child(5) {
+  margin: .02rem 0 .15rem 0;
+}
+
+.word i {
+  font-size: .14rem;
+}

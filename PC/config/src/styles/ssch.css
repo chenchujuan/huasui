@@ -1,0 +1,168 @@
+.layout {
+  height: 3397px;
+}
+
+.bgl-content-bg {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+}
+
+.bglcmp-caishui-chance-res {
+  min-width: 800px;
+}
+
+.bglcmp-caishui-chance-res .caishui-chance-input {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 30px;
+  color: #333;
+  background: #fff;
+  font-size: 16px;
+  position: relative;
+  z-index: 1000;
+}
+
+
+.bglcmp-caishui-chance-res .caishui-chance-input i {
+  display: inline-block;
+  font-size: 20px;
+  color: #ff7d4e;
+  vertical-align: -3px;
+}
+
+.bglcmp-caishui-chance-res .caishui-chance-input>div {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+.bglcmp-caishui-chance-res .caishui-chance-input .item-city {
+  position: relative;
+  z-index: 100;
+}
+
+.bglcmp-caishui-chance-res .caishui-chance-input .item-city .item-hd {
+  display: inline-block;
+  width: 85px;
+  overflow: hidden;
+  vertical-align: middle;
+  text-overflow: ellipsis;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+
+
+.bglcmp-caishui-chance-res .caishui-chance-input input {
+  border: none;
+}
+
+.bglcmp-caishui-chance-res .caishui-chance-input .split {
+  margin-right: 15px;
+}
+
+.bglcmp-caishui-chance-res .caishui-chance-input .item-tel input {
+  width: 240px;
+}
+
+.bglcmp-caishui-chance-res .item-tel-msg {
+  font-size: 12px;
+  position: absolute;
+  background: #fff;
+  color: #f32a6e;
+  border: 1px solid #ff79ae;
+  border-radius: 4px;
+  -webkit-transition: all .1s ease;
+  transition: all .1s ease;
+  pointer-events: none;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  padding: 0 6px;
+  width: 136px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  top: -38px;
+  left: 248px;
+  z-index: 99;
+}
+
+.bglcmp-caishui-chance-res .item-tel-msg .msg-trangle {
+  width: 0;
+  height: 0;
+  border-width: 8px 8px 0;
+  border-style: solid;
+  border-color: #ff79ae transparent transparent;
+  position: absolute;
+  top: 36px;
+  left: 8px;
+}
+
+.bglcmp-caishui-chance-res .item-tel-msg .msg-trangle i {
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 6px 6px 0;
+  border-style: solid;
+  border-color: #fff transparent transparent;
+  /*黄 透明 透明 */
+  position: absolute;
+  top: -8px;
+  left: -6px;
+}
+
+.bglcmp-caishui-chance-res .caishui-chance-input .item-name input {
+  width: 80px;
+}
+
+.bglcmp-caishui-chance-res .caishui-chance-input .item-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.bglcmp-caishui-chance-res .caishui-chance-input .item-btn input {
+  background: linear-gradient(#ff6b4e, #ff8c4e);
+  background: -webkit-linear-gradient(#ff6b4e, #ff8c4e);
+  background: -o-linear-gradient(#ff6b4e, #ff8c4e);
+  background: -moz-linear-gradient(#ff6b4e, #ff8c4e);
+  color: #fff;
+  height: 60px;
+  padding: 0 40px;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.bglcmp-caishui-chance-res .caishui-chance-input .item-btn input:hover {
+  background: #ffa081;
+}
+
+.bglcmp-caishui-chance-res .caishui-chance-result {
+  display: none;
+  width: 520px;
+  height: 435px;
+  position: fixed;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  margin: -217px 0 0 -260px;
+  z-index: 200;
+}
+
+.bglcmp-caishui-chance-res .caishui-chance-result .chance-result-head {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 36px;
+  height: 114px;
+  position: relative;
+}
+
+.bgl-edit-bg-item {
+  height: 200px;
+}

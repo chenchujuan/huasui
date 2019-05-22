@@ -1,0 +1,277 @@
+.titlebox {
+  text-align: center;
+  margin: 60px 0 42px;
+}
+
+.header {
+  background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/e22f59e.jpg) no-repeat center;
+  height: 240px;
+}
+
+.titlebox span {
+  color: #ff8900;
+  font-size: 38px;
+  display: block;
+  line-height: 52px;
+}
+
+.wrap1 {
+  width: 1200px;
+  margin: auto;
+}
+
+.titlebox em {
+  display: block;
+  margin: 0 auto;
+  width: 56px;
+  height: 6px;
+  border-bottom: 2px solid #ff8900;
+}
+
+.titlebox i {
+  display: block;
+  line-height: 28px;
+  font-size: 14px;
+  font-family: arial;
+  text-transform: uppercase;
+}
+
+.aboutdl {
+  float: left;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.aboutdl dt {
+  float: left;
+  width: 540px;
+  height: 292px;
+  position: relative;
+}
+
+.aboutdl dt img {
+  display: block;
+  vertical-align: bottom;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.aboutdl dt em {
+  position: absolute;
+  right: -35px;
+  bottom: -35px;
+  display: block;
+  width: 530px;
+  height: 170px;
+  border: 4px solid #ff8900;
+}
+
+.aboutdl dd {
+  float: right;
+  width: 524px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #848484;
+}
+
+.aboutcon {
+  float: left;
+  width: 100%;
+  margin: 36px 0 80px;
+}
+
+.title8 {
+  margin: 0 0 20px;
+}
+
+.title8 span {
+  display: block;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.title8 i {
+  display: block;
+  line-height: 26px;
+  font-size: 14px;
+}
+
+.detail8 {
+  font-size: 14px;
+  line-height: 26px;
+  color: #848484;
+}
+
+.businessbox {
+  background: #ebebeb;
+  float: left;
+  width: 100%;
+  padding: 96px 0;
+}
+
+.ztlist {
+  float: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ztlist li {
+  float: left;
+  width: 224px;
+  text-align: center;
+}
+
+.ztlist li a:hover {
+  color: #ff8900;
+}
+
+.ztpic {
+  margin: 0 auto;
+  width: 100px;
+  transition: width 0.2s ease 0s;
+}
+
+
+/* .ztpic img {
+    display: block;
+    width: 100%;
+    vertical-align: bottom;
+} */
+
+.ztpic i {
+  display: none;
+}
+
+.ztlist li:hover .ztpic i {
+  display: block;
+}
+
+.ztlist li:hover .ztpic span {
+  display: none;
+}
+
+.zttlecn {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 24px 0 8px;
+}
+
+.zttleen {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+}
+
+.bcpic {
+  text-align: center;
+  margin: 70px 0 120px;
+}
+
+
+/* .historybox {
+    float: left;
+    width: 100%;
+    background: url(history.jpg) no-repeat center top;
+    padding: 0 0 60px;
+} */
+
+.servicebg {
+  float: left;
+  width: 1126px;
+  background: url(../assets/servicebg.jpg) no-repeat;
+  height: 546px;
+  margin: -50px 0 0 -6px;
+  display: inline;
+}
+
+.servicebox {
+  float: left;
+  margin: 176px 0 0 56px;
+  width: 700px;
+  display: inline;
+}
+
+.servicetop {
+  float: left;
+  width: 100%;
+}
+
+.servicetop span {
+  float: left;
+  width: 150px;
+  height: 54px;
+  line-height: 54px;
+  background: #ff8900;
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  margin-right: 35px;
+}
+
+.detail9 {
+  float: left;
+  width: 472px;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 40px 0 0;
+}
+
+.line {
+  display: block;
+  width: 52px;
+  height: 20px;
+  border-bottom: 2px solid #b2b2b2;
+}
+
+.detail10 {
+  color: #222;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 30px 0 0;
+  line-height: 30px;
+}
+
+.detail10 span {
+  color: #ff8900;
+}
+
+.honorbg {
+  float: left;
+  width: 100%;
+  background: #f7f7f7;
+  padding: 58px 0;
+}
+
+.honorlist1 {
+  float: left;
+  width: 732px;
+  margin: 0 0 0 194px;
+  display: inline;
+}
+
+.honorlist1 li {
+  float: left;
+  width: 320px;
+  margin: 23px;
+  display: inline;
+}
+
+.honorlist1 li img {
+  display: block;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.historypic {
+  text-align: center;
+}
+
+.historypic img {
+  max-width: 1379px;
+  min-width: 1200px;
+  width: 90%;
+}

@@ -1,0 +1,438 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+
+html {
+  background: #F6F8F8;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  font-family: "PingFang SC", -apple-system-font, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1.5;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* custom */
+
+a {
+  color: #7e8c8d;
+  -webkit-backface-visibility: hidden;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+/* business */
+
+.zt-business .btn-icon {
+  color: #ff7d4e;
+  float: right;
+  margin-right: 10px;
+  line-height: 30px;
+}
+
+.el-dialog {
+  width: 580px !important;
+  border-radius: 8px;
+}
+
+.zt-business .popup-chance .el-input {
+  width: 78%;
+  margin-left: 2%;
+}
+
+
+.popup-chance .layout .chance-input .el-input__inner {
+  font-weight: 400;
+}
+
+.zt-business .el-form-item__content {
+  display: flex;
+}
+
+.zt-business .popup-chance .chance-dialog .el-dialog .el-dialog__header {
+  background-color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+
+.el-tabs--border-card>.el-tabs__header {
+  background: none !important;
+  border: none !important;
+  margin: 0 15px;
+}
+
+.zt-business .el-tabs--border-card>.el-tabs__header {
+  background: none;
+  border: none;
+  margin: 12px 12px 0;
+}
+
+.is-active {
+  border-top: 2px solid #ff7955 !important;
+  border-left: 1px solid #dedede !important;
+  border-right: 1px solid #dedede !important;
+  border-bottom: 1px solid #fff !important;
+}
+
+.block .is-active,
+.makeaccount .is-active {
+  border: none !important;
+}
+
+
+.cities {
+  z-index: 9;
+  /* border-top: 1px solid #dedede; */
+  padding-top: 10px;
+}
+
+.zt-business .el-tabs--border-card>.el-tabs__content {
+  padding-top: 6px;
+}
+
+.el-tabs--border-card>.el-tabs__header .el-tabs__item+.el-tabs__item,
+.el-tabs--border-card>.el-tabs__header .el-tabs__item:first-child {
+  margin-left: 0;
+}
+
+.el-tabs__item {
+  font-size: 12px !important;
+}
+
+.city-letter {
+  width: 30px !important;
+  text-align: center !important;
+  color: #999 !important;
+  float: left !important;
+}
+
+.city-items li {
+  cursor: pointer;
+  float: left;
+  display: inline-block;
+  margin: 0 20px 5px 0;
+  font-size: 12px;
+}
+
+li:hover {
+  color: #ff7955 !important;
+}
+
+.active {
+  color: #ff7955 !important;
+}
+
+.cs-common-city-selected {
+  color: #ff7955;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.zt-business .zt-business {
+  margin-top: 0;
+  border: none;
+  font-size: 12px;
+  -webkit-box-shadow: 0 2px 5px 0 #e6ebf5;
+  box-shadow: 0 2px 5px 0 #e6ebf5;
+  outline-color: snow;
+  top: 56%;
+  left: 24%;
+}
+
+.el-tabs__nav {
+  z-index: 99;
+  padding-top: 10px;
+  margin-left: 16px;
+}
+
+.el-tabs--border-card {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.zt-business .el-tabs--border-card>.el-tabs__header .el-tabs__item {
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  background: #fff;
+  padding: 0 10px;
+  margin: 0;
+  /* border-top: 2px solid transparent; */
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+
+/* .el-tabs--border-card>.el-tabs__header .el-tabs__item+.el-tabs__item,
+.el-tabs--border-card>.el-tabs__header .el-tabs__item:first-child {
+  margin-left: 0;
+} */
+
+.el-popover {
+  padding: 0 !important;
+}
+
+.el-tabs--top.el-tabs--border-card .el-tabs__item {
+  padding: 10px;
+}
+
+.el-tabs--border-card>.el-tabs__header .el-tabs__item:not(.is-disabled):hover {
+  color: #909399 !important;
+}
+
+.el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
+  border-top: 2px solid #ff7955 !important;
+  border-left: 1px solid #dedede !important;
+  border-right: 1px solid #dedede !important;
+  border-bottom: none;
+  color: #5a5e66 !important;
+  padding-top: 0 !important;
+  margin-left: 0;
+}
+
+
+/* qualification */
+
+.hot .el-carousel__container {
+  height: 490px;
+}
+
+.hot .el-carousel__item--card {
+  width: 290px;
+  height: 390px;
+}
+
+.hot .el-carousel__item--card.is-active {
+  width: 290px;
+  height: 490px;
+}
+
+.item-city:hover .item-bd {
+  display: block;
+  z-index: 99;
+}
+
+.item-city:hover .item-bd li:hover {
+  color: #ff7955;
+}
+
+
+/* makeaccount */
+
+.zj-makeaccount .el-carousel__container {
+  margin-top: 18px;
+}
+
+.zj-makeaccount .search-form span {
+  position: relative;
+}
+
+.zj-makeaccount .search-form input {
+  border: none;
+  border-radius: 0;
+  height: 35px;
+  text-align: center;
+  font-size: 18px;
+  width: 116px;
+  border-radius: 50%;
+}
+
+.zj-makeaccount .el-button {
+  border: none;
+  background: none;
+  padding: 0;
+  border-right: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.choice-btn input::-webkit-input-placeholder {
+  color: #606266;
+}
+
+.zj-makeaccount .el-button:focus,
+.zj-makeaccount .el-button:hover {
+  color: transparent;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.zj-makeaccount .el-button:hover {
+  border-right-color: #ccc;
+}
+
+.el-tabs__content {
+  padding-top: 1px !important;
+  border-top: 1px solid #dedede;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline-offset: 0;
+  outline: none;
+}
+
+.zj-makeaccount .el-form-item__content {
+  display: flex;
+}
+
+.zj-makeaccount .el-dialog {
+  width: 520px;
+  border-radius: 8px;
+}
+
+.zj-makeaccount .el-dialog__footer {
+  background-color: #f0f4f7;
+  height: 65px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* ssch */
+.zzbl-banner .el-carousel .el-carousel__indicators .is-active {
+  border: none !important;
+}
+
+.new-business-banner .el-carousel__indicators .is-active,
+.header-back .is-active {
+  border: none !important;
+}

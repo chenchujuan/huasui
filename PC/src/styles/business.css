@@ -1,0 +1,513 @@
+   .el-carousel__item {
+     background-size: cover;
+     background-position: center;
+   }
+
+   .clear {
+     zoom: 1;
+     clear: both;
+   }
+
+   .search-form-main {
+     width: 100%;
+     height: 61px;
+     background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/dfe8caa.png) center no-repeat;
+     line-height: 61px;
+     margin: 0 auto;
+     font-size: 16px;
+     color: #666;
+     position: absolute;
+     bottom: 50px;
+     z-index: 2;
+     text-align: center;
+   }
+
+   .search-form-main .search-form {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     align-items: center;
+     margin: 0 auto;
+     width: 780px;
+   }
+
+   .search-form-main .search-form .cs-select-citylist {
+     float: left;
+     width: 88px;
+     margin-left: 20px;
+   }
+
+   .search-form-main .search-form .cs-select-citylist input {
+     padding: 0;
+     border: 1px solid #e3e4ff;
+     border-radius: 0;
+     height: 30px;
+     line-height: 30px;
+     font-size: 14px;
+     text-align: left;
+     background-color: #e3e4ff;
+   }
+
+   .search-form-main .search-form .cs-select-citylist .el-input__suffix {
+     color: #ff7d4e;
+   }
+
+   .search-form-main .search-form .search-box {
+     padding: 0 20px;
+     width: 475px;
+     border: none;
+     overflow: hidden;
+     height: 55px;
+     margin-top: 3px;
+     line-height: 55px;
+   }
+
+   .search-form-main .search-form .search-btn {
+     float: right;
+     width: 185px;
+     text-align: center;
+     color: #fff;
+     text-decoration: none;
+     font-weight: bold;
+     cursor: pointer;
+   }
+
+   .zt-business .search-part {
+     height: 474px;
+     width: 100%;
+     background-color: #eff4f7;
+   }
+
+   .zt-business .search-part .search-part-block {
+     width: 1000px;
+     height: 474px;
+     margin: 0 auto;
+     font-size: 0;
+     padding: 113px 30px 0px;
+   }
+
+   .zt-business .search-part .search-part-block ul .search-part-item {
+     display: inline-table;
+     list-style: none;
+     margin-left: 60px;
+   }
+
+   .zt-business .search-part .search-part-block ul .search-part-item .search-part-box {
+     font-size: 16px;
+     background-color: #fff;
+     width: 235px;
+     height: 306px;
+     text-align: center;
+     position: relative;
+   }
+
+   .zt-business .search-part .search-part-block ul .search-part-item .search-part-box h3 {
+     font-size: 24px;
+     color: #666;
+     font-weight: normal;
+     padding-top: 105px;
+     padding-bottom: 15px;
+   }
+
+   .zt-business .search-part .search-part-block ul .search-part-item .search-part-box .single-line {
+     height: 4px;
+     width: 48px;
+     background-color: #bfbfbf;
+     margin: 0 auto;
+   }
+
+   .zt-business .search-part .search-part-block ul .search-part-item .search-part-box p {
+     font-size: 17px;
+     color: #999;
+     font-weight: normal;
+   }
+
+   .zt-business .search-part .search-part-block ul .search-part-item .search-part-box .item-text {
+     margin-top: 38px;
+   }
+
+   .zt-business .search-part .search-part-block ul .search-part-item .search-part-box .item-word {
+     margin: 5px 0;
+   }
+
+   .zt-business .search-part .search-part-block ul .search-part-item .search-part-box .search-part-pic {
+     width: 134px;
+     height: 134px;
+     border-radius: 50%;
+     border: 1px dashed #d3d4d5;
+     position: absolute;
+     cursor: pointer;
+     top: -67px;
+     left: 50px;
+   }
+
+   .zt-business .search-part .search-part-block ul .search-part-item .search-part-box .search-part-free-pic {
+     background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/958fd88.png) center no-repeat;
+   }
+
+   .zt-business .search-part .search-part-block ul .search-part-item .search-part-box .search-part--rengong-pic {
+     background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/ddb0ed6.png) center no-repeat;
+   }
+
+   .zt-business .search-part .search-part-block ul .search-part-item .search-part-box .search-part-quick-pic {
+     background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/93503e2.png) center no-repeat;
+   }
+
+   .zt-business .why-select {
+     height: 783px;
+     width: 100%;
+     background: url('../assets/3.jpg') center no-repeat;
+   }
+
+   .zt-business .service-intro {
+     height: 788px;
+     width: 100%;
+     background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/6632050.jpg) center no-repeat;
+     position: relative;
+   }
+
+   .zt-business .service-intro .get-price {
+     cursor: pointer;
+     position: absolute;
+     display: block;
+     width: 208px;
+     height: 76px;
+     left: 50%;
+     margin-left: -104px;
+     bottom: 70px;
+     background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/7f5a875.png) center no-repeat;
+   }
+
+   .zt-business .register-step {
+     height: 594px;
+     width: 100%;
+     background: url('../assets/4.jpg') center no-repeat;
+   }
+
+   .zt-business .common-help {
+     overflow: hidden;
+     height: 419px;
+     width: 100%;
+     background: url('../assets/5.jpg') center no-repeat;
+     text-align: center;
+   }
+
+   .zt-business .common-help .problem-list {
+     margin-top: 146px;
+     width: 920px;
+     display: inline-block;
+     font-size: 0;
+   }
+
+   .zt-business .common-help .problem-item {
+     display: inline-block;
+     padding: 8px 60px;
+     width: 340px;
+     text-align: left;
+   }
+
+   .zt-business .common-help .problem-item i {
+     display: inline-block;
+     vertical-align: top;
+     width: 45px;
+     height: 44px;
+   }
+
+   .zt-business .common-help .problem-item a {
+     margin-left: 14px;
+     line-height: 44px;
+     font-size: 18px;
+     color: white;
+   }
+
+   .zt-business .common-help .item-1 i {
+     background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/a643fa5.png) center no-repeat;
+   }
+
+   .zt-business .common-help .item-2 i {
+     background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/ffac288.png) center no-repeat;
+   }
+
+   .zt-business .common-help .item-3 i {
+     background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/a1894df.png) center no-repeat;
+   }
+
+   .zt-business .common-help .item-4 i {
+     background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/16eb834.png) center no-repeat;
+   }
+
+   .zt-business .common-help .more-problem {
+     margin-top: 306px;
+   }
+
+   .zt-business .common-help .get-more {
+     display: inline-block;
+     cursor: pointer;
+     width: 284px;
+     height: 72px;
+     background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/58096e2.png) center no-repeat;
+   }
+
+   .zt-business .other-service {
+     height: 500px;
+     width: 100%;
+     background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/6a56528.jpg) center no-repeat;
+     text-align: center;
+   }
+
+   .zt-business .other-service .service-list {
+     margin-top: 186px;
+     display: inline-block;
+   }
+
+   .zt-business .other-service .service-item {
+     display: inline-block;
+     width: 186px;
+     height: 246px;
+     margin: 0 30px;
+     cursor: pointer;
+     background-size: cover;
+   }
+
+   .zt-business .other-service .service-item a {
+     display: block;
+     width: 100%;
+     height: 100%;
+   }
+
+   .zt-business .header-back {
+     width: 100%;
+     background: center no-repeat;
+   }
+
+   .zt-business .choice-btn button {
+     padding: 0;
+     width: 88px;
+     margin-left: 20px;
+     border: 1px solid #e3e4ff;
+     border-radius: 0;
+     height: 30px;
+     line-height: 30px;
+     font-size: 14px;
+     text-align: left;
+     background-color: #e3e4ff;
+     color: rgb(90, 94, 102);
+   }
+
+   /*  {
+     z-index: 99;
+     padding-top: 10px;
+   } */
+
+   .city-wrapper {
+     display: flex;
+     margin-bottom: 10px;
+   }
+
+   .cs-common-city-selected .el-input__inner {
+     cursor: pointer;
+     border: none;
+   }
+
+   .cs-common-city-selected .el-input__prefix {
+     left: -4px;
+     top: -7px;
+   }
+
+   .cs-common-city-is-reverse .el-input__suffix i {
+     -webkit-transform: rotate(180deg);
+     transform: rotate(180deg);
+   }
+
+   .popup-chance .chance-dialog .el-dialog {
+     width: 580px;
+     border-radius: 8px;
+   }
+
+   .el-dialog__headerbtn {
+     top: 10px;
+     right: 10px;
+   }
+
+   .chance-dialog-title {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+   }
+
+   .chance-dialog-title .chancel-dialog-title-icon {
+     width: 40px;
+     height: 40px;
+     line-height: 40px;
+     text-align: center;
+     border-radius: 50%;
+     background-color: #ffe7e1;
+   }
+
+   .chance-dialog-title .chancel-dialog-title-icon i {
+     position: relative;
+     top: 5px;
+     font-size: 22px;
+     color: #ff7b57;
+   }
+
+   .chance-dialog-title .chancel-dialog-title-box {
+     padding-left: 5px;
+     text-align: left;
+   }
+
+   .chance-dialog-title .chancel-dialog-title-box .chancel-dialog-title-word {
+     color: #2e2f33;
+     font-size: 18px;
+     height: 40px;
+   }
+
+   .chance-dialog-title .chancel-dialog-title-box .sub-title {
+     color: #9f9f9f;
+     text-align: left;
+     font-size: 12px;
+     display: block;
+   }
+
+   .popup-chance .chance-dialog .el-dialog .el-dialog__body {
+     padding: 0px 25px 20px 20px;
+   }
+
+   .popup-chance .layout {
+     margin-top: 10px;
+   }
+
+   .popup-chance .layout .chance {
+     width: 17%;
+     display: inline-block;
+     text-align: left;
+   }
+
+   .popup-chance .layout .chance .chance-word {
+     float: right;
+     font-size: 14px;
+     color: #666;
+     margin-bottom: -5px;
+   }
+
+   .popup-chance .layout .chance .chance-word i {
+     color: red;
+     padding-right: 3px;
+   }
+
+   .popup-chance .layout .query-people {
+     font-size: 16px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+   }
+
+   .popup-chance .layout .query-people .query-num {
+     color: #ff7b57;
+   }
+
+   .popup-chance .layout .choice-citylist {
+     width: 78%;
+     margin-left: 2%;
+     font-size: 14px;
+   }
+
+   .popup-chance .layout .choice-citylist input {
+     border-radius: 4px;
+     border: 1px solid #d8dce5;
+   }
+
+   .popup-chance .zbj-private-policy-checkbox {
+     text-align: center;
+     margin-top: 14px;
+   }
+
+   .popup-chance .el-dialog__footer {
+     background-color: #f0f4f7;
+     height: 65px;
+     border-bottom-left-radius: 8px;
+     border-bottom-right-radius: 8px;
+   }
+
+   .popup-chance .el-dialog__footer .ensure {
+     background-color: #ff7b57;
+     width: 124px;
+     margin-left: 73%;
+     margin-top: 5px;
+     cursor: pointer;
+     border: none;
+     border-radius: 3px;
+     height: 38px;
+     line-height: 38px;
+     text-align: center;
+   }
+
+   .popup-chance .el-dialog__footer .ensure .ensure-word {
+     color: #fff;
+     font-size: 16px;
+   }
+
+   .popup-chance .el-dialog__footer .ensure:hover {
+     background-color: #ffa081;
+   }
+
+   .application-received .el-dialog {
+     border-radius: 8px;
+     overflow: hidden;
+   }
+
+   .application-received .el-dialog__headerbtn {
+     color: #b4bbcb;
+     font-size: 22px;
+   }
+
+   .application-received .el-dialog__header {
+     padding: 30px 28px 15px;
+   }
+
+   .application-received .el-dialog__body {
+     padding: 0 0 30px 0px;
+     background-color: #fff;
+     text-align: center;
+   }
+
+   .application-received .application-received-title {
+     padding: 15px 5px;
+   }
+
+   .application-received .application-received-title .received-title-icon {
+     float: left;
+     width: 50px;
+     height: 50px;
+     line-height: 50px;
+     border-radius: 50%;
+     background-color: #ffe7e1;
+     display: inline-block;
+     text-align: center;
+     margin-right: 12px;
+     font-size: 30px;
+     color: #ff7954;
+     vertical-align: middle;
+   }
+
+   .application-received .application-received-title .received-title-content {
+     margin-left: 55px;
+     margin-right: 20px;
+   }
+
+   .application-received .application-received-title .received-title-content .received-title-name {
+     font-size: 18px;
+     color: #2e2f33;
+   }
+
+   .application-received .application-received-title .received-title-content .received-title-desc {
+     white-space: pre-line;
+     font-size: 12px;
+     color: #878d99;
+   }
+
+   .application-received .other-company-do {
+     text-align: center;
+     color: #878d99;
+     font-size: 14px;
+     margin-bottom: 10px;
+   }

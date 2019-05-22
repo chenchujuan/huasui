@@ -1,0 +1,1047 @@
+.zbj-grid-1200 {
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.el-carousel__item:nth-child(2) {
+  background-position: left !important;
+}
+
+.header-back {
+  width: 100%;
+  height: 100%;
+  background: center no-repeat;
+}
+
+.new-business-content .new-business-banner {
+  width: 100%;
+}
+
+.new-business-content .header-back {
+  width: 100%;
+  height: 100%;
+  background: center no-repeat;
+  background-size: cover;
+}
+
+.business-advantage-content .business-advantage-chance {
+  height: 480px;
+  width: 100%;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-title {
+  text-align: center;
+  font-size: 26px;
+  color: #5565a0;
+  padding-top: 45px;
+  vertical-align: middle;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-title img {
+  width: 35px;
+  height: 29px;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-title img:first-child {
+  margin-right: 40px;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-title img:last-child {
+  margin-left: 40px;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry {
+  margin-top: 45px;
+  width: 100%;
+  height: 294px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register {
+  height: 100%;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big {
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  width: 920px;
+  height: 100%;
+  background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/a472c1d.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  -webkit-box-shadow: 3px 10px 32px 0 rgba(17, 17, 184, 0.26);
+  box-shadow: 3px 10px 32px 0 rgba(17, 17, 184, 0.26);
+  transition: width .2s;
+  -moz-transition: width .2s;
+  -webkit-transition: width .2s;
+  -o-transition: width .2s;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-title,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-title {
+  padding-top: 55px;
+  font-size: 28px;
+  color: #38324e;
+  font-weight: bold;
+  text-align: center;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-des,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-des {
+  font-size: 18px;
+  color: #929292;
+  padding-top: 5px;
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input {
+  width: 85%;
+  height: 46px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-orange,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-orange,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-gray,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-gray {
+  width: 630px;
+  border-radius: 4px 0 0 4px;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-orange .big-input-name,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-orange .big-input-name,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-gray .big-input-name,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-gray .big-input-name {
+  width: 357px;
+  border: none;
+  padding-left: 20px;
+  border-right: 1px solid #b5b3bf;
+  margin: 12px 0;
+  background: none;
+  line-height: 22px;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-orange .big-input-num,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-orange .big-input-num,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-gray .big-input-num,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-gray .big-input-num {
+  width: 272px;
+  height: 100%;
+  border: none;
+  padding-left: 20px;
+  background: none;
+  line-height: 18px;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-orange input::-webkit-input-placeholder,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-orange input::-webkit-input-placeholder,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-gray input::-webkit-input-placeholder,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-gray input::-webkit-input-placeholder {
+  color: #c2c2c2;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-orange input::-moz-placeholder,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-orange input::-moz-placeholder,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-gray input::-moz-placeholder,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-gray input::-moz-placeholder {
+  color: #c2c2c2;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-orange input:-ms-input-placeholder,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-orange input:-ms-input-placeholder,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-gray input:-ms-input-placeholder,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-gray input:-ms-input-placeholder {
+  color: #c2c2c2;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-orange input::-ms-input-placeholder,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-orange input::-ms-input-placeholder,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-gray input::-ms-input-placeholder,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-gray input::-ms-input-placeholder {
+  color: #c2c2c2;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-orange input::placeholder,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-orange input::placeholder,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-gray input::placeholder,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-gray input::placeholder {
+  color: #c2c2c2;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-orange,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-orange {
+  border: 1px solid #fc6641;
+  border-right: none;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-orange .big-input-name,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-orange .big-input-name {
+  border-right: 1px solid #fc6641;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .border-gray,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .border-gray {
+  border: 1px solid #b5b3bf;
+  border-right: none;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-big .chance-big-input .big-button,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-big .chance-big-input .big-button {
+  border: none;
+  height: 100%;
+  width: 151px;
+  line-height: 46px;
+  background: #fb653f;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-small,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-small {
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  width: 260px;
+  height: 100%;
+  background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/f7eaef4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  text-align: center;
+  -webkit-box-shadow: 2px 8px 24px 0 rgba(72, 84, 234, 0.31);
+  box-shadow: 2px 8px 24px 0 rgba(72, 84, 234, 0.31);
+  transition: width .2s;
+  -moz-transition: width .2s;
+  -webkit-transition: width .2s;
+  -o-transition: width .2s;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-small .chance-small-title,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-small .chance-small-title {
+  font-size: 26px;
+  color: #38324e;
+  font-weight: bold;
+  padding-top: 80px;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-small .chance-small-des,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-small .chance-small-des {
+  font-size: 24px;
+  color: #38324e;
+  font-weight: 400;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-small .chance-small-change,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-small .chance-small-change {
+  font-size: 18px;
+  color: #f95b34;
+  padding-top: 44px;
+  cursor: pointer;
+}
+
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-nuclear .chance-entry-small .chance-small-change .icon-arrow1,
+.business-advantage-content .business-advantage-chance .advantage-chance-entry .chance-entry-register .chance-entry-small .chance-small-change .icon-arrow1 {
+  font-size: 18px;
+  color: #f95b34;
+  margin-left: 5px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.business-advantage-content .business-advantage-list {
+  width: 100%;
+  height: 412px;
+  padding-top: 50px;
+}
+
+.business-advantage-content .business-advantage-list .advantage-list-title {
+  text-align: center;
+  color: #5565a0;
+  font-size: 26px;
+  vertical-align: middle;
+}
+
+.business-advantage-content .business-advantage-list .advantage-list-title img {
+  width: 35px;
+  height: 29px;
+}
+
+.business-advantage-content .business-advantage-list .advantage-list-title img:first-child {
+  margin-right: 12px;
+}
+
+.business-advantage-content .business-advantage-list .advantage-list-title img:last-child {
+  margin-left: 12px;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.business-advantage-content .business-advantage-list .advantage-list-list {
+  padding-top: 40px;
+}
+
+.business-advantage-content .business-advantage-list .advantage-list-list .advantage-list-item {
+  display: inline-block;
+  height: 190px;
+}
+
+.business-advantage-content .business-advantage-list .advantage-list-list .advantage-list-item .list-item-content {
+  margin-top: 20px;
+  height: 45px;
+  border-right: 1px solid #c7d3f6;
+}
+
+.business-advantage-content .business-advantage-list .advantage-list-list .advantage-list-item .list-item-content .item-content-title {
+  font-size: 18px;
+  color: #1f223e;
+  font-weight: bold;
+}
+
+.business-advantage-content .business-advantage-list .advantage-list-list .advantage-list-item .list-item-content .item-content-des {
+  font-size: 14px;
+  color: #858ba1;
+  padding-top: 5px;
+  font-weight: 400;
+}
+
+.business-advantage-content .business-advantage-list .advantage-list-list .advantage-list-item:nth-child(2) {
+  width: 276px;
+  padding-left: 70px;
+}
+
+.business-advantage-content .business-advantage-list .advantage-list-list .advantage-list-item:nth-child(3) {
+  width: 254px;
+  padding-left: 50px;
+}
+
+.business-advantage-content .business-advantage-list .advantage-list-list .advantage-list-item:nth-child(4) {
+  width: 258px;
+  padding-left: 54px;
+}
+
+.business-advantage-content .business-advantage-list .advantage-list-list .advantage-list-item:last-child {
+  width: 210px;
+  padding-left: 48px;
+}
+
+.business-advantage-content .business-advantage-list .advantage-list-list .advantage-list-item:last-child .list-item-content {
+  border: none;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.new-business-industry {
+  height: 1420px;
+  width: 100%;
+}
+
+.new-business-industry .business-industry-step {
+  width: 100%;
+  height: 425px;
+  background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/addae5f.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.new-business-industry .business-industry-step .industry-step-content {
+  position: relative;
+}
+
+.new-business-industry .business-industry-step .industry-step-content .industry-step-entry {
+  -webkit-box-shadow: 5px 14px 46px 0 rgba(50, 94, 208, 0.34);
+  box-shadow: 5px 14px 46px 0 rgba(50, 94, 208, 0.34);
+  width: 502px;
+  height: 450px;
+  background: #ffffff;
+  position: absolute;
+  top: -11px;
+  right: 26px;
+  padding-left: 42px;
+}
+
+.new-business-industry .business-industry-step .industry-step-content .industry-step-entry .step-entry-logo {
+  color: #f8f8fb;
+  font-size: 70px;
+  padding-top: 40px;
+}
+
+.border-gray {
+  display: flex;
+}
+
+.new-business-industry .business-industry-step .industry-step-content .industry-step-entry .step-entry-content .zbj-private-policy-checkbox {
+  margin-left: 8px;
+  margin-top: 10px;
+}
+
+.new-business-industry .business-industry-step .industry-step-content .industry-step-entry .step-entry-content .step-entry-title {
+  font-size: 32px;
+  color: #1f223e;
+  font-weight: bold;
+  top: -24px;
+  position: relative;
+  padding-left: 5px;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.new-business-industry .business-industry-step .industry-step-content .industry-step-entry .step-entry-content .step-entry-title span {
+  color: #fc6641;
+}
+
+.new-business-industry .business-industry-step .industry-step-content .industry-step-entry .step-entry-content .step-entry-des {
+  color: #6f6c78;
+  font-size: 18px;
+  position: relative;
+  top: -8px;
+  padding-left: 5px;
+}
+
+.new-business-industry .business-industry-step .industry-step-content .industry-step-entry .step-entry-content .step-entry-des span {
+  color: #1f223e;
+  font-weight: bold;
+}
+
+.new-business-industry .business-industry-step .industry-step-content .industry-step-entry .step-entry-content input {
+  margin-left: 5px;
+  width: 410px;
+  height: 45px;
+  border: 1px solid #b5b3bf;
+  border-radius: 4px;
+  margin-top: 50px;
+  padding-left: 15px;
+  font-size: 15px;
+  background: none;
+  line-height: 44px;
+}
+
+.new-business-industry .business-industry-step .industry-step-content .industry-step-entry .step-entry-content input:focus {
+  border: 1px solid #fc6641;
+}
+
+.new-business-industry .business-industry-step .industry-step-content .industry-step-entry .step-entry-content input::-webkit-input-placeholder {
+  color: #a4a4a4;
+  font-weight: 400;
+}
+
+.new-business-industry .business-industry-step .industry-step-content .industry-step-entry .step-entry-content input::-moz-placeholder {
+  color: #a4a4a4;
+  font-weight: 400;
+}
+
+.new-business-industry .business-industry-step .industry-step-content .industry-step-entry .step-entry-content input:-ms-input-placeholder {
+  color: #a4a4a4;
+  font-weight: 400;
+}
+
+.new-business-industry .business-industry-step .industry-step-content .industry-step-entry .step-entry-content input::-ms-input-placeholder {
+  color: #a4a4a4;
+  font-weight: 400;
+}
+
+.new-business-industry .business-industry-step .industry-step-content .industry-step-entry .step-entry-content input::placeholder {
+  color: #a4a4a4;
+  font-weight: 400;
+}
+
+.new-business-industry .business-industry-step .industry-step-content .industry-step-entry .step-entry-content button {
+  width: 200px;
+  height: 45px;
+  background: #fc6641;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px;
+  border: none;
+  margin-top: 32px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.new-business-industry .business-industry-step .industry-step-content .industry-step-entry .step-entry-content button:hover {
+  background: #ff8061;
+}
+
+.new-business-industry .business-industry-content {
+  width: 100%;
+  height: 993px;
+  background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/0ec64a3.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.new-business-industry .business-industry-content .industry-content-title {
+  padding-top: 96px;
+  text-align: center;
+}
+
+.new-business-industry .business-industry-content .industry-content-title .industry-title-name {
+  font-size: 26px;
+  color: #445284;
+  vertical-align: middle;
+}
+
+.new-business-industry .business-industry-content .industry-content-title .industry-title-name img {
+  width: 35px;
+  height: 29px;
+}
+
+.new-business-industry .business-industry-content .industry-content-title .industry-title-name img:first-child {
+  margin-right: 10px;
+}
+
+.new-business-industry .business-industry-content .industry-content-title .industry-title-name img:last-child {
+  margin-left: 10px;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.new-business-industry .business-industry-content .industry-content-title .industry-title-des {
+  color: #65719c;
+  font-size: 16px;
+}
+
+.new-business-industry .business-industry-content .industry-content-list {
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 722px;
+  width: 100%;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-title {
+  font-size: 22px;
+  color: #1f223e;
+  font-weight: bold;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-title span {
+  padding-left: 10px;
+  color: #fc6641;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-title span .icon-huo {
+  font-size: 22px;
+  padding-right: 5px;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-des {
+  color: #8c93aa;
+  font-size: 15px;
+  padding-top: 25px;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-list-left {
+  width: 368px;
+  margin-left: 10px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-list-left .industry-left-big {
+  width: 100%;
+  height: 430px;
+  background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/7688bfb.jpg);
+  -webkit-box-shadow: 1px 4px 8px 0 rgba(89, 100, 170, 0.31);
+  box-shadow: 1px 4px 8px 0 rgba(89, 100, 170, 0.31);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+  padding: 60px 34px 0;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-list-left .industry-left-big .industry-left-big-list {
+  padding-top: 46px;
+  height: 290px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-list-left .industry-left-big .industry-left-big-list .industry-left-big-item {
+  padding: 0 18px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  background: #f3f6f7;
+  color: #79819a;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-list-left .industry-left-big:hover {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-list-left .industry-left-small {
+  width: 100%;
+  height: 200px;
+  background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/91721ab.jpg);
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 1px 4px 8px 0 rgba(89, 100, 170, 0.31);
+  box-shadow: 1px 4px 8px 0 rgba(89, 100, 170, 0.31);
+  background-size: cover;
+  border-radius: 4px;
+  padding: 40px 34px 0;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-list-left .industry-left-small:hover {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-list-right {
+  width: 786px;
+  height: 100%;
+  padding-right: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-list-right .industry-right-item {
+  width: 368px;
+  height: 200px;
+  background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/91721ab.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+  padding: 40px 34px 0;
+  -webkit-box-shadow: 1px 4px 8px 0 rgba(89, 100, 170, 0.31);
+  box-shadow: 1px 4px 8px 0 rgba(89, 100, 170, 0.31);
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-list-right .industry-right-item .industry-des-last {
+  color: #8c93aa;
+  font-size: 15px;
+  padding-top: 16px;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-list-right .industry-right-item .industry-des-more {
+  font-size: 15px;
+  color: #7090e0;
+  font-weight: bold;
+  padding-top: 18px;
+  cursor: pointer;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-list-right .industry-right-item .industry-des-more span {
+  text-decoration: underline;
+  vertical-align: middle;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-list-right .industry-right-item .industry-des-more .icon-arrow1 {
+  font-size: 15px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-list-right .industry-right-item .industry-des-more:hover {
+  color: #6082d8;
+}
+
+.new-business-industry .business-industry-content .industry-content-list .industry-list-right .industry-right-item:hover {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.new-business-register {
+  width: 100%;
+}
+
+.new-business-register .business-register-step {
+  width: 100%;
+  height: 462px;
+  background: -webkit-gradient(linear, left top, right top, from(#fbfdff), to(#eef6ff));
+  background: linear-gradient(90deg, #fbfdff, #eef6ff);
+}
+
+.new-business-register .business-register-step .register-step-title {
+  padding-top: 90px;
+  text-align: center;
+}
+
+.new-business-register .business-register-step .register-step-title .step-title-name {
+  font-size: 26px;
+  color: #38324e;
+  vertical-align: middle;
+}
+
+.new-business-register .business-register-step .register-step-title .step-title-name img {
+  width: 35px;
+  height: 29px;
+}
+
+.new-business-register .business-register-step .register-step-title .step-title-name img :first-child {
+  margin-right: 15px;
+}
+
+.new-business-register .business-register-step .register-step-title .step-title-name img :last-child {
+  margin-left: 15px;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.new-business-register .business-register-step .register-step-title .step-title-des {
+  font-size: 16px;
+  color: #8c8c98;
+}
+
+.new-business-register .business-register-step .register-step-list {
+  padding-top: 90px;
+  height: 106px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.new-business-register .business-register-step .register-step-list .step-list-item {
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  width: 328px;
+  height: 100%;
+}
+
+.new-business-register .business-register-step .register-step-list .step-list-item .step-item-logo {
+  width: 104px;
+  height: 104px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.new-business-register .business-register-step .register-step-list .step-list-item .step-item-content {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 12px;
+}
+
+.new-business-register .business-register-step .register-step-list .step-list-item .step-item-content .step-item-title {
+  color: #1f223e;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.new-business-register .business-register-step .register-step-list .step-list-item .step-item-content .step-item-des {
+  color: #8c93aa;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.new-business-register .business-register-step .register-step-list .step-list-item .step-item-arrow {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 28px;
+}
+
+.new-business-register .business-done-register {
+  width: 100%;
+  height: 490px;
+  background: url('../assets/7.jpg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.new-business-register .business-done-register .done-register-content {
+  position: relative;
+}
+
+.new-business-register .business-done-register .done-register-content a {
+  display: block;
+  position: absolute;
+  left: 588px;
+  top: 184px;
+  width: 210px;
+  height: 50px;
+  border-radius: 25px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ffecb0), to(#fffdf5));
+  background-image: linear-gradient(0deg, #ffecb0 0%, #fffdf5 100%);
+  color: #3c98e7;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.new-business-hotmore {
+  width: 100%;
+}
+
+.new-business-hotmore .business-hot-question {
+  height: 473px;
+  background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/f251aca.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.new-business-hotmore .business-hot-question .hot-question-title {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 26px;
+  color: #38324e;
+  padding-bottom: 95px;
+  vertical-align: middle;
+}
+
+.new-business-hotmore .business-hot-question .hot-question-title img {
+  width: 35px;
+  height: 29px;
+}
+
+.new-business-hotmore .business-hot-question .hot-question-title img :first-child {
+  margin-right: 30px;
+}
+
+.new-business-hotmore .business-hot-question .hot-question-title img :last-child {
+  margin-left: 24px;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.new-business-hotmore .business-hot-question .hot-question-list {
+  height: 90px;
+  line-height: 90px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.new-business-hotmore .business-hot-question .hot-question-list .hot-question-item {
+  width: 268px;
+  text-align: center;
+  height: 100%;
+  background: url(//as.zbjimg.com/static/nodejs-caishui-pc-web/client/img/b000b38.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  color: #3c79da;
+  font-size: 18px;
+  cursor: pointer;
+  position: relative;
+  -webkit-box-shadow: 1px 5px 13px 0 rgba(126, 138, 209, 0.18);
+  box-shadow: 1px 5px 13px 0 rgba(126, 138, 209, 0.18);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.new-business-hotmore .business-hot-question .hot-question-list .hot-question-item .hot-question-num {
+  position: absolute;
+  font-size: 46px;
+  left: 16px;
+  top: -46px;
+  font-style: italic;
+  font-weight: bold;
+  color: #a3bef5;
+}
+
+.new-business-hotmore .business-hot-question .hot-question-list .hot-question-item a {
+  color: #3c79da;
+}
+
+.new-business-hotmore .business-hot-question .hot-question-list .hot-question-item :hover {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+.new-business-hotmore .business-hot-question .more-hot-question {
+  width: 200px;
+  height: 40px;
+  border-radius: 4px;
+  background: #d5e4ff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  color: #6c73b5;
+  font-weight: bold;
+  display: block;
+  margin: 65px auto 0;
+  cursor: pointer;
+}
+
+.new-business-hotmore .business-hot-question .more-hot-question :hover {
+  background: rgba(213, 228, 255, 0.8);
+}
+
+.application-received .el-dialog {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.application-received .el-dialog__headerbtn {
+  color: #b4bbcb;
+  font-size: 22px;
+}
+
+.application-received .el-dialog__header {
+  padding: 30px 28px 15px;
+}
+
+.application-received .el-dialog__body {
+  padding: 0 0 30px 0px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.application-received .application-received-title {
+  padding: 15px 5px;
+}
+
+.application-received .application-received-title .received-title-icon {
+  float: left;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  background-color: #ffe7e1;
+  display: inline-block;
+  text-align: center;
+  margin-right: 12px;
+  font-size: 30px;
+  color: #ff7954;
+  vertical-align: middle;
+}
+
+.application-received .application-received-title .received-title-content {
+  margin-left: 55px;
+  margin-right: 20px;
+}
+
+.application-received .application-received-title .received-title-content .received-title-name {
+  font-size: 18px;
+  color: #2e2f33;
+}
+
+.application-received .application-received-title .received-title-content .received-title-desc {
+  white-space: pre-line;
+  font-size: 12px;
+  color: #878d99;
+}
